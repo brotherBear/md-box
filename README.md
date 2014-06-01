@@ -1,4 +1,4 @@
-* Mongo DB provisioning:
+# Mongo DB provisioning:
 
 1. Install VirtualBox
   1.a Make sure that VirtualBox is on PATH
