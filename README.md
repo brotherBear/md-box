@@ -10,9 +10,10 @@
 
 The mongodb cookbook must fetched from github https://github.com/edelight/chef-mongodb
 
-After cloning this repository, you can move into `chef/cookbooks' directory, and run the following:
+After cloning this repository, you should run the following:
 
 ```
+cd chef/cookbooks
 rmdir mongodb
 git clone https://github.com/edelight/chef-mongodb.git mongodb
 ```
