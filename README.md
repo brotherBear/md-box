@@ -4,3 +4,8 @@
 2. Install Vagrant
 
 `vagrant up` from the top of this repository.
+
+
+## missing mongodb cookbook
+
+The mongodb cookbook must fetched from github https://github.com/edelight/chef-mongodb
