@@ -42,6 +42,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # argument is a set of non-required options.
   config.vm.synced_folder ".", "/home/vagrant/synced"
 
+  # Use the vagrant plugin 'vagrant-omnibus' to update use the latest chef 
+  # version. To enable the plugin, run the following command on the host box:
+  # 
+  # vagrant plugin install vagrant-omnibus
+  #
+  config.omnibus.chef_version = :latest
+
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
