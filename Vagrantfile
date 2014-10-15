@@ -100,7 +100,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.cookbooks_path = "chef/cookbooks"
   #  chef.roles_path = "../chef/roles"
   #  chef.data_bags_path = "../chef/data_bags"
- #   chef.add_recipe "python"
+    chef.add_recipe "git"
     chef.add_recipe "mongodb::default"
 #    chef.add_recipe "nodejs"
 #    chef.add_recipe "nodejs::npm"
